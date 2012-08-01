@@ -2,7 +2,7 @@ AnaLogi
 =======
 
 Graphical Web Interface for OSSEC
-AnaLogi v1.0
+AnaLogi v1.2
 Copyright (C) 2012 ECSC Ltd.
 
 = Information about AnaLogi =
@@ -37,5 +37,8 @@ http://www.famfamfam.com/lab/icons/silk/
 
 Hover text
 http://www.spiceupyourblog.com/2011/05/simple-css-only-tooltip-descriptions.html
+
+Christian Beer 
+For help with bug fixing
 
 And last, but certainly not least, OSSEC/Dan!

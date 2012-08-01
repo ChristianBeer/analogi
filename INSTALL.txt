@@ -1,9 +1,9 @@
-AnaLogi v1.0
+AnaLogi v1.2
 Copyright (C) 2012 ECSC Ltd.
 
 = Ossec = 
 
-Install ossec-hids-server (AnaLogi v1.0 built around OSSEC 2.6)
+Install ossec-hids-server (AnaLogi v1.2 built around OSSEC 2.6)
 
 Follow instructions to log to MySQL database
 (currently http://www.ossec.net/doc/manual/output/mysql-database-output.html).
