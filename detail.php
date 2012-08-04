@@ -248,7 +248,7 @@ if(isset($_GET['limit']) && is_numeric($_GET['limit']) && $_GET['limit']<1000){
 		chartScrollbar.scrollbarHeight = 40;
 		chartScrollbar.color = "#000000";
         chartScrollbar.gridColor = "#000000";
-        chartScrollbar.bckgroundColor = "#FFFFFF";
+        chartScrollbar.backgroundColor = "#FFFFFF";
 		chartScrollbar.autoGridCount = true;
 		chart.addChartScrollbar(chartScrollbar);
 

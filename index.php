@@ -160,7 +160,7 @@ if(isset($_GET['field']) && $_GET['field']=='path'){
 		chartScrollbar.scrollbarHeight = 40;
 		chartScrollbar.color = "#000000";
         chartScrollbar.gridColor = "#000000";
-        chartScrollbar.bckgroundColor = "#FFFFFF";
+        chartScrollbar.backgroundColor = "#FFFFFF";
 		chartScrollbar.autoGridCount = true;
 		chart.addChartScrollbar(chartScrollbar);
 
