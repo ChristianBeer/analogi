@@ -246,7 +246,9 @@ if(isset($_GET['limit']) && is_numeric($_GET['limit']) && $_GET['limit']<1000){
 		// SCROLLBAR
 		var chartScrollbar = new AmCharts.ChartScrollbar();
 		chartScrollbar.scrollbarHeight = 40;
-		chartScrollbar.color = "#FFFFFF";
+		chartScrollbar.color = "#000000";
+        chartScrollbar.gridColor = "#000000";
+        chartScrollbar.bckgroundColor = "#FFFFFF";
 		chartScrollbar.autoGridCount = true;
 		chart.addChartScrollbar(chartScrollbar);
 

@@ -158,7 +158,9 @@ if(isset($_GET['field']) && $_GET['field']=='path'){
 		var chartScrollbar = new AmCharts.ChartScrollbar();
 		chartScrollbar.graph = graph0;
 		chartScrollbar.scrollbarHeight = 40;
-		chartScrollbar.color = "#FFFFFF";
+		chartScrollbar.color = "#000000";
+        chartScrollbar.gridColor = "#000000";
+        chartScrollbar.bckgroundColor = "#FFFFFF";
 		chartScrollbar.autoGridCount = true;
 		chart.addChartScrollbar(chartScrollbar);
 
