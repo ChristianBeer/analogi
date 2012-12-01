@@ -227,22 +227,6 @@ while($row = @mysql_fetch_assoc($result)){
 	$filtercategory.="<option value='".$row['cat_id']."'".$selected.">".$row['cat_name']."</option>";
 }
 
-
-#function highlight($string, $term){
-#	$term = preg_replace('/\s+/', ' ', trim($term));
-#	$words = explode(' ', $term);
-#	$highlighted = array();
-#	foreach ( $words as $word ){
-#	    $highlighted[] = "<span class='highlight'>".$word."</span>";
-#	}
-#
-#	return str_replace($words, $highlighted, $string);
-#}
-
-
-
-
-
 ?>
 
 

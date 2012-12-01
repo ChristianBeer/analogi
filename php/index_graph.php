@@ -120,8 +120,6 @@ $datafound=0;
 
 ## Informal note, I hate this section of code, it will be rewritten.
 
-## Informal note, I hate this section of code, it will be rewritten.
-
 while($rowchart = @mysql_fetch_assoc($resultchart)){
 
 	$datafound=1;
